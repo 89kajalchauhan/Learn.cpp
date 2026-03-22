@@ -1,6 +1,6 @@
-#include <iostream>
+/*#include <iostream>
 using namespace std;
-/*
+
 //function define 
 int sum(int a, int b) {
   int s = a + b;
@@ -154,7 +154,7 @@ int main() {
   return 0; 
 }*/
 
-int binToDec(int binNum) {
+/*nt binToDec(int binNum) {
 
   int ans = 0, pow = 1; 
 
@@ -176,10 +176,40 @@ int main() {
 
   cout<<binToDec(1010101100) <<endl;
   return 0;
+}*/
+
+#include <iostream>
+using namespace std;
+
+int x = 10;
+
+int fun() {
+  cout << x <<endl;
+
 }
 
+int main() {
+  fun();
 
+  cout<< x << endl;
 
+  return 0;
+
+  /*int a = 6, b = 10;
+
+  cout<< (a & b) <<endl;
+  cout<<(a | b) <<endl;*/
+
+  /*cout<< (a & b) <<endl;
+  cout<< (a | b) <<endl;
+  cout<< (a ^ b) <<endl;*/
+
+  /*cout<<(10 << 2) <<endl;
+
+  cout<<(10 >> 1) <<endl;
+  return 0; */
+}
+ 
 
 
 
